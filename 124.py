@@ -2,16 +2,6 @@
 #waf to add square of digits of the number
 #waf to compute wheather the number is armstrong or not
 
-#def add_digit(n):
-    #sum = 0
-
-   # while n > 0:
-    #    last_digit = n % 10
-   #     sum = sum + last_digit**2
-   #     n = n // 10
-   # return sum
-#print(add_digit(22))
-
 
 def is_armstrong(n):
     original = n

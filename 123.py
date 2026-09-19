@@ -5,4 +5,7 @@ def temprature_converter(temperature, unit):
     elif unit == "f":
         print("celsius", "=", (temperature - 32 )* 5/9)
 temprature_converter(25,"c")
-    
+# convert celsius to farenheit and viceversa using loops
+
+n = int(input("Enter the temprature in degree celsius: "))
+
