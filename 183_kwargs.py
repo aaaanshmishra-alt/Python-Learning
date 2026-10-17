@@ -47,5 +47,5 @@ def filter_passed(**kwargs):
             print(name, ":", values)
     return count
 new = filter_passed(Ansh=85, Rahul=32, Priya=67, Aman=39, Neha=40)
-print(filter_passed(Ansh=85, Rahul=32, Priya=67, Aman=39, Neha=40))
+print(new)
 print("Number of students passed : ",new)
