@@ -108,9 +108,7 @@ print(f"Cheapest Product: {cheap_name} - ₹{cheap_price:.2f}")
 
 print(f"\nProducts Above ₹500: {above_500}")
 
-print(f"Products Below ₹200: {below_200}")
-
+print(f"Products Belo ₹200: {below_200}")
 print("\nProducts After 10% Discount:")
-
 for name, price in discounted_products.items():
     print(f"{name}: ₹{price:.2f}")

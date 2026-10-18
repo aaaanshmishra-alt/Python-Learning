@@ -1,0 +1,53 @@
+# ============================================================
+# ADVANCED FUNCTIONS — KEYWORD ARGUMENTS
+# ============================================================
+
+# Positional argument:
+# Python matches the value with the parameter based on position.
+
+def introduce(name, age):
+    print(name, age)
+
+introduce("Ansh", 19)
+
+# "Ansh" → name
+# 19     → age
+
+
+# ------------------------------------------------------------
+# KEYWORD ARGUMENT
+# ------------------------------------------------------------
+
+# We can explicitly specify the parameter name.
+
+introduce(name="Ansh", age=19)
+
+# "Ansh" → name
+# 19     → age
+
+
+# ------------------------------------------------------------
+# ORDER CAN CHANGE
+# ------------------------------------------------------------
+
+introduce(age=19, name="Ansh")
+
+# Output:
+# Ansh 19
+
+# The order does not matter because Python knows
+# which parameter each value belongs to.
+
+
+# ------------------------------------------------------------
+# POSITIONAL + KEYWORD
+# ------------------------------------------------------------
+
+def student(name, age, city):
+    print(name, age, city)
+
+student("Ansh", age=19, city="Bangalore")
+
+# "Ansh"       → positional
+# age=19       → keyword
+# city=...     → keyword

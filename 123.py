@@ -7,5 +7,5 @@ def temprature_converter(temperature, unit):
 temprature_converter(25,"c")
 # convert celsius to farenheit and viceversa using loops
 
-n = int(input("Enter the temprature in degree celsius: "))
+ 
 

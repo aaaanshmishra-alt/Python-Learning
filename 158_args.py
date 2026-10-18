@@ -18,6 +18,8 @@
 # Use *args.
 # ============================================================
 def find_max(*args):
+    if len(args) == 0:
+        return None
     highest = args[0]
     for number in args:
         if number > highest:
